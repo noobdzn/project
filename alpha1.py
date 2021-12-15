@@ -13,7 +13,6 @@ while True:
         pw=input("please enter you password:   ")
         if pw==password:
             print("\n\n\n.............................................LOGIN SUCCESSFUL.............................................")
-            
 
             #menu        
             print("please choose a feature")
@@ -28,7 +27,6 @@ while True:
                 6. Customer bill generation
                 7. View available stock
                 8. Exit programme""")
-                
                 x=input("\n what would you like to do ? :  ")
                 if x=="1":
                     a = input('pls input veg name: ')
@@ -72,12 +70,6 @@ while True:
                     print("\n bill generation")
                     custname=input("please enter your name: ")
                     custno=int(input("please enter your phone number:"))
-                    
-                   
-
-
-
-
                 #check for availability of an item
                 elif x=="7":
                     print("\nStock availability :")
@@ -95,7 +87,7 @@ while True:
                             text=text[:length]
                         elif len(text)<length:
                             text=(text+" "*length)[:length]
-                        return text 
+                        return text
                     print("#"*71)
                     print("# ", end=" ")
                     for x in header:
