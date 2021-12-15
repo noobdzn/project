@@ -1,0 +1,34 @@
+When you’re ready to shut down Linux, you must do so in an orderly manner. 
+Even if you’re the sole user of a Linux PC, several other programs usually run in 
+the background. Also, operating systems such as Linux try to optimize the way 
+that they write data to the hard drive. Because hard-drive access is relatively slow 
+(compared with the time needed to access memory locations), data generally is 
+held in memory and written to the hard drive in large chunks. Therefore, if you 
+simply turn off the power, you run the risk that some files won’t be updated 
+properly.
+Trying Out Linux
+CHAPTER 4 Trying Out Linux 65
+Any user can shut down the system from the desktop or from the graphical login 
+screen without even being logged in, although some distributions, such as Debian, 
+prompt for the root password. Typically, you should look for a Log Out option on 
+the main menu or submenus. When you choose this option, a Log Out dialog box 
+appears, providing options for logging out immediately or waiting 60 seconds. 
+More detailed menu options can include rebooting or halting the system in addition to simply logging out. To shut down the system, choose Shutdown and then 
+click OK. The system shuts down in an orderly manner.
+If the logout menu doesn’t have a shutdown option, first log out and then select 
+Shutdown on the graphical login screen. You can also shut down a Linux computer 
+from a terminal with the command init 0. This method is sometimes required 
+if you’re running the operating system within a virtual software manager such as 
+VMware.
+While the system shuts down, you see messages about processes shutting down. 
+You may be surprised by how many processes there are even when no one is 
+explicitly running any programs on the system. If your system doesn’t automatically power off on shutdown, you can turn off the power manually.
+Shutting down or rebooting the system may not require root access, so it’s important to make sure that physical access to the console is protected adequately. You 
+don’t want just anyone to be able to simply walk up to the console and shut down 
+your system.
+You don’t always need to shut down when you’re finished with a session; instead, 
+you may choose to log out. To log out of KDE, choose Main Menu➪ Logout. You can 
+also right-click an empty area of the desktop and choose Logout from the contextual menu that appears. To log out from GNOME, choose System➪ Log Out. Click 
+OK when a dialog box asks whether you really want to log out. (In some GNOME 
+desktop distributions, the logout menu option is the second or third menu button 
+from the left on the top panel.
